@@ -1,6 +1,6 @@
 ## Summary
 <br>
-This project creates a Postgres database with tables designed to optimize queries on song play analysis. It creates a database schema and ETL pipeline for this analysis. You can test your database and ETL pipeline by running queries given to you in the etl.py script and compare your results with their expected results.
+This project applies Postgres to build an ETL pipeline using Python. It defines the fact and dimension tables for a star schema for a particular analytic focus, and writes an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 
 ## Source Data
